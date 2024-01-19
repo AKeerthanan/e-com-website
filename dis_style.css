@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+body{
+    background-image: url('17.jpeg');
+      
+    background-size: cover;
+}
+h1{
+    color: #fff;
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;   
+}
+h1{
+    color: rgb(11, 213, 244);
+    -webkit-text-stroke: 2px rgb(9, 3, 3);
+    text-transform: uppercase;
+}
+
+.head1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 163, 188);
+    -webkit-text-stroke: 1px rgb(9, 3, 3);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+}
+span{
+    color: black;
+}
+.img1{
+    width: 100%;
+    height:250px;
+    text-align: center;
+    
+    overflow: hidden;   
+}
+.img1{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.cont{
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid black;
+    
+}
+.first{
+    width: 100px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    bottom:3%;
+    left: 25%;
+    margin-right: 50px;
+ }
+ .first{
+    float: left;
+    width: 14%;
+    padding: 5px;
+}
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 4px;
+    margin: 4px ;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 12px;
+    
+}
+.btn:hover{
+    background-color:  #2cf533;
+    box-shadow: #ef4006;
+    color: #034305
+}
+.win{
+    border:2px solid black;
+    border-radius: 10px;
+    height: 400px;
+    margin: 10px; 
+}
+.new{
+    border:2px solid black;
+    border-radius: 10px;
+    height: 400px;
+    margin: 10px;
+}
+
+.img{
+    position: absolute;
+    left: 45%;
+}
+.img1-1{
+    display: block;
+    width: 50%;
+   margin-left: 300px;
+   
+}

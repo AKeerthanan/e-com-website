@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+}
+.navbar{
+    height: 70px;
+    background-color:rgb(54, 156, 156);
+    
+}
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 10px 20px;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+    line-height: 65px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.navbar ul li a:hover{
+    opacity: 50%;
+}
+
+.name{
+    float:left;
+    padding: 15px;
+    
+}
+h2{
+    padding-bottom: 5px;
+    font-size: 25px;
+    text-align: left;
+}
+.form1{
+    width: 500px;
+    padding: 16px;
+    background-color:rgb(225, 221, 221);
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    backdrop-filter: blur(100px);
+}
+.box{
+    width: 85%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn{
+    width: 200px;
+    margin: 8px;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 25%;
+    background-color: rgb(132, 201, 161);
+    color: white;
+}
+
+.btn:hover{
+    background-color:  rgb(60, 165, 135);
+    box-shadow: 0 0 0 2px white;
+}
+
+.contain{
+    display: flex;
+}
+.form1-con{
+    flex: 1;
+    padding: 20px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.form2-con{
+    flex: 1;
+    padding: 25px;
+    position: relative;
+    left: 50%;
+    bottom: 20%;
+    
+}
+.form3-con{
+    flex:1;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    padding: 20px;
+}
+.form2{
+    width: 500px;
+    padding: 16px;
+    background-color:rgb(225, 221, 221);
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    backdrop-filter: blur(100px);
+}
+.box1{
+    width: 85%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.box1-1{
+    width: 15%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    
+}
+.box1-2{
+    width: 5%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    border-radius: 10px;
+}
+.box1-3{
+    width: 150px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.box1-4{
+    width: 50px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.logo2{
+    position: absolute;
+    left: 71%;
+  
+}
+
+.form3{
+    width: 500px;
+    height: 350px;
+    padding: 16px;
+    background-color:rgb(225, 221, 221);
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+    backdrop-filter: blur(100px);
+}
+.pass{
+    
+    float: left;
+    padding: 15px;
+    position: relative;
+    left: 13%;
+    
+}
+.btn1{
+    width: 100px;
+    margin: 8px;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    right: 30%;
+    top: 27%;
+    background-color: rgb(132, 201, 161);
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(60, 165, 135);
+    box-shadow: 0 0 0 2px white;
+}
+.btn2{
+    width: 200px;
+    margin: 8px;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    background-color: rgb(132, 201, 161);
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(60, 165, 135);
+    box-shadow: 0 0 0 2px white;
+}

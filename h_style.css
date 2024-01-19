@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(4.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #22438C; 
+    
+}
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 10px 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 65px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    
+}
+.navbar ul li ul.dropdown li{
+    display: block;
+    background:#22438C;
+    margin: 1px 90px;
+    
+}
+.navbar ul li ul.dropdown{
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.navbar li a:hover{
+    background:#112c66;
+}
+.navbar li:hover ul.dropdown{
+    display: block;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: #3beded;
+    -webkit-text-stroke: 1px rgb(9, 11, 12);
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    font-family:Monospace;
+}
+.center h2{
+    color: #1cf8f8;
+    -webkit-text-stroke: 1px rgb(9, 3, 3);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+    font-family:Verdana;
+}
+.center .buttons{
+    margin: 30px 280px;
+    text-align: center;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(242, 243, 244);
+    background: rgba(31, 173, 208, 0.53);
+    border: 1px solid blue;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s ;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #008080;
+}
